@@ -10,6 +10,13 @@
 
 <body>
 
+
+
+    <script src="./axios/axios.min.js"></script>
+    <script>
+        axios.get('get_sample.php')
+            .then(res => console.log(res.data));
+    </script>
 </body>
 
 </html>
