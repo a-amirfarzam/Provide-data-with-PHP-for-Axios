@@ -1,2 +1,2 @@
 <?php
-echo 'You can read php now';
+echo 'GET METHOD:  You can read php now';

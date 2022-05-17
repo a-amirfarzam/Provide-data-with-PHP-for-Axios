@@ -14,6 +14,13 @@
 
     <script src="./axios/axios.min.js"></script>
     <script>
+        // =====================================
+        axios.post('post_sample.php', {
+                id: 25
+            })
+            .then(res => console.log(res.data));
+
+        // =====================================
         axios.get('get_sample.php')
             .then(res => console.log(res.data));
     </script>
